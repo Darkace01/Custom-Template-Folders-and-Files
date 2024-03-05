@@ -24,7 +24,6 @@ Focus on Logic: Spend less time on boilerplate code and more time crafting appli
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-        <Dependency d:Source="Manual" d:InstallSource="Download" DisplayName="MediatR" Location="https://www.nuget.org/packages/MediatR" Id="MediatR" Version="(11.0,12.0)" />
     </Dependencies>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Clean Query.zip" />
