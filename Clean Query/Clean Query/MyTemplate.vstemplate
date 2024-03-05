@@ -1,9 +1,9 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>Clean Query</Name>
-    <Description>Domain Query Handler and Response Class files for Clean Architecture Project Structure</Description>
+    <Name>CQRS Query</Name>
+    <Description>Generate CQRS Query Classes - Scaffold CQRS Query with Handler and Response</Description>
     <ProjectType>CSharp</ProjectType>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>templateIcon.jpg</Icon>
   </TemplateData>
   <TemplateContent>
     <ProjectItem SubType="" TargetFileName="$fileinputname$QueryHandler.cs" ReplaceParameters="true">$fileinputname$QueryHandler.cs</ProjectItem>

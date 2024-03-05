@@ -1,9 +1,9 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>Clean Command</Name>
-    <Description>Application Command Class For Clean Architecture Flow</Description>
+    <Name>CQRS Command</Name>
+    <Description>Generate CQRS Command Classes - Scaffold CQRS Command with Handler and Response</Description>
     <ProjectType>CSharp</ProjectType>
-    <Icon>__TemplateIcon.ico</Icon>
+	  <Icon>templateIcon.jpg</Icon>
   </TemplateData>
   <TemplateContent>
     <ProjectItem SubType="" TargetFileName="$fileinputname$Command.cs" ReplaceParameters="true">$fileinputname$Command.cs</ProjectItem>
