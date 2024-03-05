@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="CQRS_Class_Generator.ff5e1ad1-cedd-4c5e-b909-845f17127e78" Version="1.0" Language="en-US" Publisher="Kazeem Quadri" />
+        <DisplayName>CQRS Class Generator</DisplayName>
+        <Description xml:space="preserve">CQRS Scaffolding - Effortless Class Generation for CQRS Pattern
+
+This Visual Studio extension streamlines the creation of essential class files for implementing the CQRS (Command Query Responsibility Segregation) pattern in your .NET projects.
+
+Benefits:
+
+Save Time: Quickly generate the necessary Command/Query, Handler, and Response classes with a few clicks.
+Improve Consistency: Maintain a consistent code structure across your CQRS implementation.
+Reduce Errors: Avoid manual code generation and potential typos.
+Focus on Logic: Spend less time on boilerplate code and more time crafting application logic.</Description>
+        <MoreInfo>https://github.com/Darkace01/Custom-Template-Folders-and-Files</MoreInfo>
+        <Icon>CQRS Class Generator.jpg</Icon>
+        <Tags>.net,CQRS,Command, Query</Tags>
+    </Metadata>
+    <Installation AllUsers="true">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+        <Dependency d:Source="Manual" d:InstallSource="Download" DisplayName="MediatR" Location="https://www.nuget.org/packages/MediatR" Id="MediatR" Version="(11.0,12.0)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Clean Query.zip" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Clean Command.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
