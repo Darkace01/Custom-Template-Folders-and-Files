@@ -4,27 +4,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean Query", "Clean Query", "{3BB0F2E3-00C0-4075-8A57-6B12192B7A9F}"
-	ProjectSection(SolutionItems) = preProject
-		Clean Query\$fileinputname$Query.cs = Clean Query\$fileinputname$Query.cs
-		Clean Query\$fileinputname$QueryHandler.cs = Clean Query\$fileinputname$QueryHandler.cs
-		Clean Query\$fileinputname$QueryResponse.cs = Clean Query\$fileinputname$QueryResponse.cs
-		Clean Query\MyTemplate.vstemplate = Clean Query\MyTemplate.vstemplate
-		Clean Query\__TemplateIcon.ico = Clean Query\__TemplateIcon.ico
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean Command", "Clean Command", "{B432C721-F8E7-4C8F-A6EC-2A73ACF8192D}"
-	ProjectSection(SolutionItems) = preProject
-		Clean Command\$fileinputname$Command.cs = Clean Command\$fileinputname$Command.cs
-		Clean Command\$fileinputname$CommandHandler.cs = Clean Command\$fileinputname$CommandHandler.cs
-		Clean Command\$fileinputname$CommandResponse.cs = Clean Command\$fileinputname$CommandResponse.cs
-		Clean Command\$fileinputname$CommandValidator.cs = Clean Command\$fileinputname$CommandValidator.cs
-		Clean Command\MyTemplate.vstemplate = Clean Command\MyTemplate.vstemplate
-		Clean Command\__TemplateIcon.ico = Clean Command\__TemplateIcon.ico
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean Query", "Clean Query\Clean Query\Clean Query.csproj", "{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean Command", "Clean Command\Clean Command\Clean Command.csproj", "{35FDE6AB-6C26-4C90-B4E4-90159E8DE262}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FDE6AB-6C26-4C90-B4E4-90159E8DE262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FDE6AB-6C26-4C90-B4E4-90159E8DE262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FDE6AB-6C26-4C90-B4E4-90159E8DE262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FDE6AB-6C26-4C90-B4E4-90159E8DE262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEACF6F4-FFB1-4D97-9C26-C0CC3C397B34} = {3BB0F2E3-00C0-4075-8A57-6B12192B7A9F}
+		{35FDE6AB-6C26-4C90-B4E4-90159E8DE262} = {B432C721-F8E7-4C8F-A6EC-2A73ACF8192D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A9B2280-26B8-4BF6-A63C-05FC269478B5}
