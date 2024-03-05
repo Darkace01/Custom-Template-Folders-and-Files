@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Clean Query</Name>
+    <Description>Domain Query Handler and Response Class files for Clean Architecture Project Structure</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$QueryHandler.cs" ReplaceParameters="true">$fileinputname$QueryHandler.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Query.cs" ReplaceParameters="true">$fileinputname$Query.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$QueryResponse.cs" ReplaceParameters="true">$fileinputname$QueryResponse.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

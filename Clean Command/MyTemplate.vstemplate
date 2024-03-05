@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Clean Command</Name>
+    <Description>Application Command Class For Clean Architecture Flow</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Command.cs" ReplaceParameters="true">$fileinputname$Command.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$CommandHandler.cs" ReplaceParameters="true">$fileinputname$CommandHandler.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$CommandResponse.cs" ReplaceParameters="true">$fileinputname$CommandResponse.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$CommandValidator.cs" ReplaceParameters="true">$fileinputname$CommandValidator.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
