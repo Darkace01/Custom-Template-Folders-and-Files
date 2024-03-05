@@ -57,14 +57,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="ItemTemplates\Clean Query.zip">
+    <Content Include="ItemTemplates\Clean Query.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
-    </None>
-    <None Include="ItemTemplates\Clean Command.zip">
+    </Content>
+    <Content Include="ItemTemplates\Clean Command.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
-    </None>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
